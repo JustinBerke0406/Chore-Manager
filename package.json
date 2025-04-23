@@ -2,6 +2,6 @@
   "homepage": "https://JustinBerke0406.github.io/ChoreDash",
   "scripts": {
       "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
+      "deploy": "gh-pages -d build"
     }
 }
