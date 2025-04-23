@@ -1,8 +1,9 @@
 /* Reset margins and ensure full height */
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Modal overlay covers the entire viewport */
@@ -111,19 +112,57 @@ html, body {
   text-align: center;
 }
 
-/* Override button styling */
-.override-button {
-  margin-top: 15px;
-  padding: 8px 16px;
-  background-color: #ff9800;
-  border: none;
-  color: #fff;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
+.home-container {
+  background-image: linear-gradient(to bottom right, #a9ff81, rgb(152, 255, 238));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+
 }
 
-.override-button:hover {
-  background-color: #e68900;
+.home-title {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.slogan {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sign-in {
+  margin: 3px;
+  padding: 15px;
+  background-color: #2196f3;
+}
+
+.sign-up {
+  margin: 3px;
+  padding: 15px;
+  background-color: #4197dd;
+}
+
+.sign-in:hover {
+  margin: 3px;
+  padding: 15px;
+  background-color: #1f7dca;
+}
+
+.sign-up:hover {
+  margin: 3px;
+  padding: 15px;
+  background-color: #367bb4;
 }
